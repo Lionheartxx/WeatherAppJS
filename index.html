@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Now</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+
+<body class="">
+    <di class="container">
+        <div class="container-fluid">
+            <div class="app-wrap row text-center justify-content-center">
+                <div
+                    class="col-lg-5 col-md-7 col-8 text-white bg-secondary opacity-75 d-flex align-items-center rounded-1 shadow-lg">
+                    <div class="col-12 align-items-center mb-4">
+                        <section class="location mb-5">
+                            <div class="city fs-1 fw-bold">Location<i class="bi bi-geo-alt"></i>, Country</div>
+                            <div class="date fs-4"></div>
+                        </section>
+                        <div class="main-temp">
+                            <div class="temp mb-4 fw-normal display-1">00 <span class="fw-light">°C</span></div>
+                            <div class="weather fs-2 fw-bold">
+                                <i class="bi bi-brightness-high"></i>
+                                <i class="bi bi-cloud-rain px-2"></i>
+                                <i class="bi bi-snow2"></i>
+                                <i class="bi bi-cloud-fog2 px-2"></i>
+                                <i class="bi bi-cloud-lightning"></i>
+                            </div>
+                            <div class="hi-low fs-4">Min°C / Max°C</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex" style="height: 100%; display: contents !important;">
+                    <div class="vr bg-white d-none d-lg-block"></div>
+                </div>
+                <hr style="width: 58%;" class="text-white border-2 d-block d-lg-none mb-0">
+                <div
+                    class="col-lg-5 col-md-7 col-8 d-flex justify-content-center bg-secondary opacity-75 rounded-1 shadow-lg">
+                    <div class="col-10 col-md-8 col-sm-9 col-lg-7 col-xl-7 col-xxl-6 d-flex align-items-center">
+                        <div class="input-group">
+                            <input name="btn" type="text" autocomplete="off" class="form-control search-box"
+                                placeholder="Location..." aria-label="Recipient's username"
+                                aria-describedby="button-addon2">
+                            <button name="btn" class="btn btn-outline-dark fw-bold search-btn" type="submit"
+                                id="button-addon2">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </di>
+    <footer class="text-end mt-5">
+        <p class="text-white">Contact me -> <a href="https://t.me/Lionnheart" target="_blank"
+                class="text-decoration-none me-4">Sherali</a></p>
+    </footer>
+    <script src="./script.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
