@@ -1,0 +1,28 @@
+body{
+    font-family: 'montserrat', sans-serif;
+    /* background-image: url(./image/bg.jpg); */
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    background-size: cover;
+    background-position: top center;
+}
+
+.container-fluid{
+    margin-top: 8vh;
+}
+
+.bg-secondary{
+    height: 70vh;
+}
+@media only screen and (max-width: 992px){
+    .bg-secondary{
+        height: 90%;
+    }
+}
+
+.text-decoration-none:hover{
+    text-decoration: underline !important;
+}
+
+.wind{
+    margin-left: 30vw;
+}
